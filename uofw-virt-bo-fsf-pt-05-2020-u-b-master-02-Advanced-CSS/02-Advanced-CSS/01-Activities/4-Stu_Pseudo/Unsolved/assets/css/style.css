@@ -30,6 +30,10 @@ li {
   width: 135px;
 }
 
+li::before {
+  content: "emoji potato";
+}
+
 .button {
   background-color: purple;
   border: none;
